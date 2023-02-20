@@ -1,0 +1,147 @@
+﻿body {
+	overflow: auto;
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	background-color: rgb(3, 7, 1);
+	background-image: url(img/binary1.jfif);
+	text-align: center;
+	box-sizing: border-box;
+}
+ul {
+	text-align: left;
+}
+hr {
+	border-top: 2px dotted brown;
+}
+.date {
+	font-size: 12px;
+	text-align: left;
+	font-style: italic;
+	margin: 0px;
+}
+div {
+	border: 5px solid rgb(14, 34, 19);
+	background-color: #dbeca0;
+	border-radius: 15px;
+	width: 100%;
+	margin-top: 10px;
+	box-sizing: border-box;
+}
+div a {
+	color: black;
+	text-decoration: none;
+}
+div a:hover {
+	font-weight: bold;
+}
+nav, .header {
+	display: flex;
+	justify-content: spacing-evenly;
+	margin-top: 10px;
+	border-radius: 5px;
+
+}
+.links {
+	border: 10px;
+	background: rgb(74, 223, 29);
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 0px;
+}
+.topnav {
+	background-color: rgb(74, 223, 29);
+}
+.topnav a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+.topnav :hover {
+	background: rgb(191, 245, 160);
+}
+.pglinks {
+	border: 0px;
+	background: rgb(74, 223, 29);
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 0px;
+}
+.pagenav {
+	background: rgb(74, 223, 29);
+	border-radius: 5px;
+}
+.pagenav a {
+	color: black;
+	text-decoration: none;
+}
+.pagenav :hover {
+	background: rgb(191, 245, 160);
+}
+.hd, .sbs {
+	border: 0px;
+	margin: 0px;
+}
+img.profile {
+	margin: 5px;
+	border-radius: 50%;
+	border: 0px solid black;
+}
+img.GA4 {
+	border-radius: 50%;
+	height: 100px;
+}
+img.wh {
+	border-radius: 50%;
+	width: 200px;
+}
+
+figure {
+	border: 1px dashed black;
+	padding: 5px;
+	width: 90%;
+	margin: 10px auto 10px;
+}
+h1 {
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 50px;
+}
+h2 {
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+h4 {
+	margin-top: 0px;
+}
+h5 {
+	margin-bottom: 3px;
+}
+.employment {
+	background-color: rgb(74, 223, 29);
+}
+.sbs, .sbs-role {
+	display: inline-grid;
+	grid-template-columns: auto;
+	background-color: rgb(3, 7, 1);
+	background-image: url(img/binary1.jfif);
+	border: 0px;
+	max-width: 100%;
+}
+.sbs-role > div {
+	border-top: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	margin-top: -10px;
+}
+
+.company {
+	border-bottom: 0px;
+	margin-bottom: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+@media (min-width: 800px) {
+	.sbs, .sbs-role {
+		grid-template-columns: 50% 50%;
+	}
+}
